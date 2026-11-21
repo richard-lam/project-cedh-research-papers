@@ -17,7 +17,8 @@ Motivated by the recognition of Magic: The Gathering as the world's most complex
 │   └── The_Project_cEDH_Framework/                    # Whitepaper 2
 ├── demo/
 │   ├── demo001/   # MTG Game Engine + AI (slide deck)
-│   └── demo002/   # cEDH AI Platform (slide deck)
+│   ├── demo002/   # cEDH AI Platform (slide deck)
+│   └── demo003/   # cEDH.ai: From Games to Intelligent Systems (presentation)
 └── README.md
 ```
 
@@ -85,6 +86,17 @@ Slide deck presenting the architecture and current state of the full competitive
 [View PDF](demo/demo002/Magic_%20the_Gathering-CEDH_AI.pdf)
 
 Slide deck showcasing the cEDH AI platform with full UI demonstrations. Includes the landing page, multiplayer game lobby creation (human + AI slots), quick-game mode against AI opponents, mulligan decision interface, and in-game board state with card tooltips, game log, stack viewer, and zone management.
+
+### demo003 — cEDH.ai: From Games to Intelligent Systems
+
+[View PDF](demo/demo003/cEDH_AI_From_Games_to_Intelligent_Systems.pdf)
+
+Alpha-stage technical presentation (November 2026) on using multiplayer strategy games to study multi-agent decision-making, with cEDH as the first environment. It labels every capability as implemented, experimental or proposed. Covers:
+
+- **Games and AI** — why games are useful research environments, the Deep Blue, AlphaGo and AlphaZero milestones, and the Chess vs Go vs Magic comparison (Table I)
+- **Magic and Commander** — the game for newcomers, the four-player cEDH format, and why imperfect information, chance and multiplayer reasoning make it hard for AI
+- **The environment today** — the four-player browser game and rules engine (public gameplay currently paused), and a restricted-testing agent interface: seat-scoped observations, numbered legal actions, validated decisions, and seeded, verifiable game replays
+- **Research direction** — proposed standardised multi-agent experiments, non-zero-sum objectives and potential applications beyond games, with the caveat that results from games don't automatically transfer
 
 ---
 
